@@ -1,0 +1,23 @@
+{
+  "name": "protonft-erc721a",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.ts --network avaxtest",
+    "ignition": "npx hardhat ignition deploy ignition/modules/ProtoNFT.ts --network avaxtest"
+  },
+  "keywords": [],
+  "author": "Resende",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^5.0.0",
+    "erc721a": "^4.3.0",
+    "hardhat": "^2.22.9",
+    "ts-node": "^10.9.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
